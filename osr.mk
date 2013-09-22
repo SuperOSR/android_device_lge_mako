@@ -14,6 +14,9 @@ $(call inherit-product, vendor/osr/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
+# Inherit Google Apps.
+$(call inherit-product, vendor/google/full.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
 PRODUCT_NAME := osr_mako
